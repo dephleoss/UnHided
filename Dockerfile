@@ -12,7 +12,7 @@ RUN git clone https://github.com/dephleoss/UnHided
 # Copy the local config.json file to the container
 
 # Install any needed packages specified in requirements.txt
-RUN python3 run.py
+RUN pip install --no-cache-dir -r requirements.txt
 
 
 EXPOSE 8888
