@@ -12,7 +12,7 @@ RUN git clone https://github.com/dephleoss/UnHided.git
 # Copy the local config.json file to the container
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r ./UnHinded/requirements.txt
+RUN pip install --no-cache-dir -r ./UnHided/requirements.txt
 
 
 EXPOSE 8888
